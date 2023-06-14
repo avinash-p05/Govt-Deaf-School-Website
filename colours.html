@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(184, 191, 196);
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            grid-template-rows: repeat(10,10vh);
+            width: 100vw;
+            height: 100vh;
+         
+            gap: 15px;
+            
+            box-sizing: border-box;
+        }
+        .heading{
+            text-align: center ;
+            font-size: 45px;
+        }
+        .grid-item{
+            border-radius: 40px;
+            background-color: rgb(181, 245, 129);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-item a{
+            text-decoration: none;
+        }
+        .grid-item  p{
+            color: black;
+            font-size: 20px;
+            font-weight: 1000;
+            
+          
+        }
+        .grid-item:hover{
+            transform: scale(1.1);
+            box-shadow: inset;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">COLOURS (
+      ಬಣ್ಣಗಳು)</h1>
+    <div class="grid-container">
+        
+        <div class="grid-item" style="background-color: rgb(255, 25, 25);"><p>RED(ಕೆಂಪು)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(255, 136, 0);"><p>ORANGE(
+          ಕೇಸರಿ)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(251, 255, 24);"><p>YELLOW(ಹಳದಿ)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(70, 175, 0);"><p>GREEN(ಹಸಿರು)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(0, 53, 168);"><p style="color: white ;">BLUE(
+          ನೀಲಿ)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(178, 0, 233);"><p>PURPLE(ನೇರಳೆ)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(253, 0, 211);"><p>PINK (
+            ಬಣ್ಣಗಳು)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(63, 36, 36);"><p>BROWN(
+            
+ಗುಲಾಬಿ)</p></a></div>
+        <div class="grid-item" style="background-color: rgb(255, 255, 255);"><P>WHITE(
+            
+ಬಿಳಿ)</P></a></div>
+        <div class="grid-item" style="background-color: rgb(0, 0, 0);"><p style="color: white ;">BLACK(
+            
+ಕಪ್ಪು)</p></a></div>
+        
+        
+    </div>
+
+</body>
+
+</html>
