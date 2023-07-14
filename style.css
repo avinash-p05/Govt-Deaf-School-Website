@@ -44,11 +44,28 @@ header{
 }
 .navlist{
     display: flex;
-
+    padding-top: 18px;
 }
 .navlist li{
-    position: relative;
+    /* position: relative; */
+    transition: 0.3;
 }
+.navlist li:hover{
+    transform:  scale(1.1);
+ 
+}
+
+.navlist li p a{
+    text-decoration: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+}
+.navlist #tops-btn{
+    padding-left: 70px;
+}
+
 .navlist a{
     font-size: var(--p-font);
     color: var(--text-color);
