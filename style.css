@@ -14,7 +14,7 @@
     --main-color:#000000;
     --big-color: 6rem;
     --h2-font: 4rem;
-    --p-font: 1.5rem;
+    --p-font: 1.2rem;
 }
 body{
     background: var(--bg-color);
